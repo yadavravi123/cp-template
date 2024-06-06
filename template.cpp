@@ -15,6 +15,7 @@ b=b>>1;
 }
 return ans;
 }
+
 ll power(ll a,ll b)
 {
 ll ans=1;
@@ -68,6 +69,10 @@ typedef tree<int, null_type, less_equal<int>, rb_tree_tag, tree_order_statistics
 // find_by_order(i): returns iterator to the ith smallest elements (counting from 0)
 
 //auto it=find_by_order(i); *(it)=> value at ith indexin pbds(starting from 0)
+
+// priority_queue<int>maxHeap;
+// priority_queue<int,vector<int>,greater<int>>minHeap;
+
 int main(){
     
 }
